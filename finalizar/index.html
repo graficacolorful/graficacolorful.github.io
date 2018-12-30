@@ -1,0 +1,76 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Willian Laino - Desenvolvedor Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="finalizar.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="topbar">
+            <div id="label-itens">
+                <span id="labeltxt">Escolha</span>
+            </div>
+    </div>
+    <section id="main">
+        <div id="step1">
+            <div id="msg">Escolha uma forma de pagamento</div>
+            <div class="item" id="option1"> 
+                <div class="checkboxmark"> 
+                    <img src="https://s9.postimg.org/e5enmaoz3/correct-mark.png"> 
+                </div> <div class="checkboxdisable"></div> 
+                <div class="title">Transferência/Depósito</div> 
+            </div>
+            <div class="item" id="option2"> 
+                <div class="checkboxmark"> 
+                    <img src="https://s9.postimg.org/e5enmaoz3/correct-mark.png"> 
+                </div> <div class="checkboxdisable"></div> 
+                <div class="title">Boleto</div> 
+            </div>
+            <div class="item" id="option3"> 
+                <div class="checkboxmark"> 
+                    <img src="https://s9.postimg.org/e5enmaoz3/correct-mark.png"> 
+                </div> <div class="checkboxdisable"></div> 
+                <div class="title">cartão de crédito via Paypal</div> 
+            </div>
+            <div id="vezes"> Em até 12x</div>
+            <img id="bandeiras" src="https://s18.postimg.cc/ononq9ent/3ebe0505-2881-475e-96c3-f1d2567f9ebf.png">
+        </div>
+        <div id="step2">
+            <div id="msgalert">
+                <span id="msgtxt">*Sua fatura chegará por e-mail caso tenha</span>
+                <span id="msgtxt">escolhido pagar com cartão de crédito</span>
+                <span id="msgtxt">via <span>Paypal</span></span>
+            </div>
+            <div id="containerinputs">
+                <input type="text" name="name" id="name" placeholder="Nome e sobrenome">
+                <input type="text" name="email" id="email" placeholder="Digite um e-mail válido">
+                <input type="text" name="cep" id="cep" placeholder="Código postal">
+                <input type="text" name="residnumber" id="residnumber" placeholder="Nº">
+                <input type="button" id="b-finalizar" value="Finalizar pedido">
+            </div>
+        </div>
+        <div  id="step3">
+            <div id="msg">Pronto!</div>
+            <div id="msgalert">
+                <div id="msg2">Caso já tenha nosso WhatsApp</div>
+                <div id="msg2">nos envie a imagem abaixo.</div>
+            </div>
+            <div id="msgalert2">
+                <div id="msg3">Mantenha pressionado a imagem</div>
+                <div id="msg3">para compartilhar</div>
+                </div>
+            <div id="chart">
+                    <img id="chartimage" src="" alt="QR Code">
+            </div>
+            <div id="chamar">
+                    <div id="msgchamar">
+                            <div id="msg4">Ou clique aqui</div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <script type="application/javascript" src="motorzin3.js"></script>
+</body>
+</html>

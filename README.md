@@ -1,1 +1,1 @@
-# graficacolorful.github.io
+# Tribo

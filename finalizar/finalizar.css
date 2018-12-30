@@ -1,0 +1,248 @@
+@charset "UTF-8";
+body,html{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+#topbar{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: #8a0ccd;
+    z-index: 1;
+}
+section#main{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    background: #fff;
+}
+#logo{
+    display: table;
+    margin: 0 auto;
+}
+#label-itens{
+    display: table;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#label-itens span#labeltxt{
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 1.2em;
+    color: #fff;
+}
+#msgalert{
+    display: table;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#msgalert span#msgtxt{
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 0.8em;
+    color: #000;
+}
+#msgalert span#msgtxt span{
+    font-weight: bold;
+}
+#msg{
+    display: table;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.4em;
+    color: #000;
+    font-weight: bold;
+}
+#msg2{
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 1em;
+    color: #000;
+}
+#msgalert2{
+    display: table;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#msg3{
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 0.7em;
+    color: #b2b2b2;
+}
+#chart{
+    display: none;
+    margin: 0 auto;
+    border-bottom: 1px solid #eeeeee;
+}
+#msgchamar{
+    display: table;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#msg4{
+    display: block;
+    position: relative;
+    font-family: Arial;
+    font-size: 1em;
+    color: #000;
+    font-weight: bold;
+}
+#containerinputs{
+    display: table;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+}
+#name, #email, #tel{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    font-family: Arial;
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+}
+#cep, #residnumber{
+    width: 49%;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    font-family: Arial;
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+}
+#cep{
+    width: 70%
+}
+#residnumber{
+    width: 28%;
+}
+#b-finalizar{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEEEEE;
+    font-family: Arial;
+    font-size: 1.1em;
+    background: #88cf04;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 100px;
+}
+#b-finalizar{
+    background: #4baa2b;
+    color: #ffffff;
+}
+#containerinputs label{
+    display: table;
+    margin: 0 auto;
+    font-family: Arial;
+    font-size: 0.9em;
+    color: #bdbdbd;
+    font-weight: bold;
+}
+.item{
+    display: table;
+    margin: 0 auto;
+    margin-top: 21px;
+    padding-bottom: 6px;
+    width: 74%;
+    height: auto;
+ 
+}
+#option3{
+    padding-bottom: 31px;
+    border-bottom: 1px solid #eeeeee;
+ 
+}
+.checkboxdisable{
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background: #eeeeee;
+    float: left;
+}
+.checkboxmark{
+    display: none;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #FFD300;
+    border-radius: 2px;
+    float: left;
+}
+.checkboxmark img{
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.title{
+    position: relative;
+    float: left;
+    left: 8px;
+    top: 5px;
+    font-family: Arial;
+    font-size: 1.0em;
+}
+#vezes{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 31px;
+    font-family: Arial;
+    font-size: 0.8em;
+}
+#bandeiras{
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 1.0em;
+}
+#step2 {
+    display: none;
+}
+#step3 {
+    display: none;
+}
