@@ -9,6 +9,16 @@
 [class*="entypo-"]:before {
     font-family: 'entypo', sans-serif;
 }
+#teste{
+    background-image: -webkit-linear-gradient(left, #E0F8F7, #585858, #fff); /* For Chrome and Safari */
+    background-image: -moz-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient(left, #E0F8F7, #585858, #fff); /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient(left, #E0F8F7, #585858, #fff); /* For old Opera (11.1 to 12.0) */
+    background-image: linear-gradient(to right, #C04192, #ef1c1c, #ff6300);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 body,html{
     margin: 0;
     padding: 0;
@@ -152,7 +162,7 @@ body,html{
       position: absolute;
       float: left;
       font-family: Arial;
-      background: #ff0000;
+      background: #8a0ccd;
       border-radius: 80px;
       padding: 2px;
       padding-left: 6px;
