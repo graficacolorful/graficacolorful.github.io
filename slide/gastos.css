@@ -176,6 +176,7 @@ right: 7%;
 }
 .item{
     width: 100%;
+    padding-top: 20px;
     float: left;
 }
 .background{
@@ -336,8 +337,8 @@ right: 7%;
     position: relative;
     float: left;
     top: -3px;
-    font-family: Nunito;
-    font-size: 0.78em;
+    font-family: Arial;
+    font-size: 0.80em;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -365,22 +366,22 @@ right: 7%;
     float: left;
 }
 .label{
-    width: 50%;
+    width: 35%;
     height: auto;
     font-family: Nunito;
     color: #fff;
-    background:#af11cb;
+    background: #333333;
     font-size: 0.9em;
     padding-top: 5px;
     padding-bottom: 5px;
     float: left;
 }
 .valor{
-    width: 50%;
+    width: 65%;
     height: auto;
     font-family: Nunito;
     color: #fff;
-    background: #cd15c9;
+    background: #666666;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 0.9em;
@@ -463,7 +464,7 @@ right: 7%;
 
 @media only screen and (max-width: 858px) {
     .title{
-        font-size: 0.7em;
+        font-size: 0.80em;
     }
     .item{
         width: 100%;
