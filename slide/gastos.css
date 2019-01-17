@@ -287,7 +287,7 @@ right: 7%;
     font-size: 1.5em;
     padding-top: 20px;
     padding-bottom: 10px;
-    background-image: linear-gradient(to right, #f61ac6 , #fdcf1c);
+    background-image: linear-gradient(to right, #8a0ccd , #f61ac6);
  
 }
 .miditem{
@@ -369,7 +369,7 @@ right: 7%;
     height: auto;
     font-family: Nunito;
     color: #fff;
-    background: #f8588c;
+    background:#af11cb;
     font-size: 0.9em;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -380,7 +380,7 @@ right: 7%;
     height: auto;
     font-family: Nunito;
     color: #fff;
-    background: #fb9e4a;
+    background: #cd15c9;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 0.9em;
