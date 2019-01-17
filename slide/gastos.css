@@ -1,0 +1,487 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'montserrat';
+    src: url('fonts/Montserrat-ExtraBold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding-bottom: 10px;
+  }
+nav{
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  -webkit-transition: height 0.25s;
+  -moz-transition: height 0.25s;
+  -o-transition: height 0.25s;
+  transition: height 0.25s;
+  margin: 0 auto;
+  z-index: 99;
+}
+#container{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+}
+ul#listmenu{
+  position: relative;
+  float: left;
+  width: auto;
+  height: auto;
+  right: 0px;
+  padding: 0;
+  list-style-type: none;
+}
+li.lis{
+  position: relative;
+  float: left;
+  left: 20%;
+  width: 80px;
+  height: 35px;
+  font-family: Nunito; 
+  font-weight: normal;
+  font-size: 0.98em;
+}
+li#HOME{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+li#SOBREMIM{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+li#PROJETOS{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+li#HABILIDADES{
+  width: auto;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+li:hover{
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 2px;
+}
+li a{
+  position: relative;
+  color: #5d5f62;
+  top: 7px;
+}
+li a:link{
+  text-decoration: none;
+}
+li a:visited{
+  text-decoration: none;
+}
+li a:hover{
+  text-decoration: none;
+  color: #8600ff;
+}
+li a:active{
+  text-decoration: none;
+}
+#logo{
+  position: relative;
+  float: left;
+  width: auto;
+  height: auto;
+  top: 28px;
+  margin: 0 auto;
+}
+#logo a{
+  position: relative;
+  top: 6px;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-family: fjalaone;
+  font-size: 1.4em;
+}
+#logo a:link{
+
+  text-decoration: none;
+}
+#logo a:visited{
+  text-decoration: none;
+}
+#logo a:hover{
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+#logo a:active{
+  text-decoration: none;
+}
+#buttonmenu{
+display: none;
+position: absolute;
+float: left;
+width: 38px;
+top: 14px;
+left: 3%;
+}
+#buttonmenu img{
+width: 38px;
+}
+#buttoncart{
+position: absolute;
+float: right;
+width: 38px;
+top: 14px;
+right: 7%;
+}
+#buttoncart img{
+    padding-top: 5px;
+    width: 28px;
+}
+#buttoncart span{
+    position: absolute;
+    float: left;
+    font-family: Arial;
+    background: #8a0ccd;
+    border-radius: 80px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+}
+/*////////////////////////////////////////////*/
+#main{
+    position: relative;
+    margin: 0 auto;
+    height: auto;
+    width: 81%;
+    top: 80px;
+}
+#container-itens{
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.cod{
+    display: none;
+}
+.item{
+    width: 100%;
+    float: left;
+}
+.background{
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+#b-viewcarrinhomobile{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    right: 10px;
+    clear: both;
+    border-radius: 80px;
+    top: 5px;
+}
+#b-viewcarrinhomobile img{
+    float: left;
+    width: 25px;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+#b-viewcarrinhomobile span{
+    margin-top: 2px;
+    margin-left: 0px;
+    float: left;
+    font-family: Arial;
+    background: #ff0000;
+    border-radius: 80px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+}
+#b-addcarrinhomobile{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    background: #8600ff;
+    width: 252px;
+    height: 50px;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -126px;
+    border-radius: 80px;
+}
+#b-addcarrinhomobile img{
+    position: relative;
+    float: left;
+    width: 29px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+#b-addcarrinhomobile span{
+    position: relative;
+    margin-top: 14px;
+    margin-left: 5px;
+    float: left;
+    font-family: Arial;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+
+}
+#label-itens{
+    display: table;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#label-itens span#labellogo{
+    display: table;
+    position: relative;
+    font-family: montserrat;
+    font-size: 1.2em;
+    color: #fff;
+}
+.imglogo{
+    display: table;
+    position: relative;
+    width: 60px;
+    padding-top: 7px;
+    float: left;
+}
+#label-itens span#labeltxt{
+    display: none;
+    position: relative;
+    font-family: Arial;
+    font-size: 1.2em;
+    color: #fff;
+}
+#label-itens span#labelnumb{
+    display: none;
+    position: relative;
+    font-family: Arial;
+    font-size: 1.2em;
+    color: #fff;
+    left: -10px;
+    font-weight: bold;
+}
+.topitem{
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 90%;
+    height: auto;
+ 
+}
+.miditem{
+    display: table;
+    margin: 0 auto;
+    width: 95%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #8a0ccd;
+}
+.botitem{
+    display: table;
+    margin: 0 auto;
+    width:  100%;
+    height: auto;
+}
+.checkboxdisable{
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    background: #eeeeee;
+    float: left;
+}
+.checkboxmark{
+    display: none;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    background: #FFD300;
+    border-radius: 2px;
+    float: left;
+}
+.checkboxmark img{
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.title{
+    position: relative;
+    float: left;
+    top: -3px;
+    font-family: Nunito;
+    font-size: 0.78em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+.title:hover{
+    color: #d2d2d2;
+}
+.container-mid{
+    display: table;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+.container-top{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.container-bot{
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.label{
+    width: 50%;
+    height: auto;
+    font-family: Nunito;
+    color: #fff;
+    background: #000;
+    font-size: 0.9em;
+    float: left;
+}
+.valor{
+    width: 50%;
+    height: auto;
+    font-family: Nunito;
+    color: #fff;
+    background: #000;
+    font-size: 0.9em;
+    float: left;
+}
+.valor:hover{
+    color: #8600ff;
+}
+.label:hover{
+    color: #8600ff;
+}
+.botleft{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+}
+.botcenter{
+    text-align: center;
+}
+.botright{
+    text-align: right;
+    float: right;
+}
+.imagelogo{
+    display: table;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 80px;
+}
+.image{
+    margin-top: -50px;
+    width: 100%;
+}
+#containerboximage{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 3;
+}
+#boximage{
+    display: table;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    top: 0px;
+    left: 0px;
+}
+#closeimage{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 53px;
+    height: 53px;
+    border-radius: 100px;
+    background: #FFD300;
+    color: #fff;
+    z-index: 4;
+}
+#closeimage span{
+    position: relative;
+    font-family: Arial;
+    font-size: 1.4em;
+    font-weight: bold;
+    top: 13px;
+    left: 18px;
+}
+@media only screen and (max-width: 1140px) {
+    #container-itens{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 858px) {
+    .title{
+        font-size: 0.7em;
+    }
+    .item{
+        width: 100%;
+    }
+    #main{
+        width: 100%;
+    }
+    .imagelogo{
+        width: 150px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 852px){
+    #listmenu{
+      display: none;
+    }
+    #buttonmenu{
+      display: block;
+    }
+    #main{
+        top: 65px;
+    }
+}
+@media screen and (max-width: 400px){
+    .imagelogo{
+        width: 100px;
+    }
+}
