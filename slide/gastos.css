@@ -282,9 +282,12 @@ right: 7%;
 .topitem{
     display: table;
     margin: 0 auto;
-    padding-bottom: 15px;
-    width: 90%;
+    width: 95%;
     height: auto;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, #f61ac6 , #fdcf1c);
  
 }
 .miditem{
@@ -294,7 +297,7 @@ right: 7%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 10px;
-    background: #8a0ccd;
+    background: #000;
 }
 .botitem{
     display: table;
@@ -366,8 +369,10 @@ right: 7%;
     height: auto;
     font-family: Nunito;
     color: #fff;
-    background: #000;
+    background: #f8588c;
     font-size: 0.9em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     float: left;
 }
 .valor{
@@ -375,7 +380,9 @@ right: 7%;
     height: auto;
     font-family: Nunito;
     color: #fff;
-    background: #000;
+    background: #fb9e4a;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 0.9em;
     float: left;
 }
